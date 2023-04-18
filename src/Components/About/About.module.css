@@ -1,0 +1,35 @@
+.about{
+    display: flex;
+}
+
+.left, .right{
+   width: 50vw;
+   height: 300px;
+   border: 1px solid #000000;
+}
+
+.left{
+    background: #FF90E8;
+    padding: 20px;
+    height: 261px;
+}
+
+.right{
+    background: #FFC900;
+}
+
+h2{
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+}
+
+img{
+    margin-left: 20px;
+}

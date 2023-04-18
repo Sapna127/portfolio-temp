@@ -1,0 +1,31 @@
+.blog{
+    display: flex;
+    margin-top: 40px;
+}
+
+.left, .right{
+   width: 50vw;
+   height: 300px;
+   border: 1px solid #000000;
+}
+
+.left{
+    
+    padding: 10px;
+    height: 280px;
+}
+
+.right{
+    background: #FFC900;
+}
+
+h2{
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+}

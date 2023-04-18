@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Jaldi';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+/* line-height: 108px; */
+align-content: center;
+color: #000000;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.low{
+    display: flex;
+    border: 1px solid #000000;
+    position: sticky;
+}
+
+.right{
+    justify-content: left;
+    margin-left: 700px;
+}
+
+button{
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #000000;
+    padding: 20px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #FF90E8;
+    cursor: pointer;
+}
+button:hover{
+    background:  #FF90E8;
+}
+
+.resume{
+    color: #fff;
+    background: #000000;
+}

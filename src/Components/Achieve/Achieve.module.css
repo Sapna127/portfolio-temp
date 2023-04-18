@@ -1,0 +1,41 @@
+.whole{
+    margin-top: 20px;
+}
+.row1, .row2{
+    width: 100vw;
+    border: 1px solid #000000;
+    height: 200px;
+    display: flex;
+ 
+}
+
+.r1,.r2, .r3, .r4{
+    
+    width: 50vw;
+    border: 1px solid #000000;
+    height: 200px;
+    size: 30px;
+}
+
+.r1{
+    background: #B23386;
+}
+.r2{
+    background: #FF90E8;
+}
+.r3{
+    background: #23A094;
+}
+.r4{
+    background: #000000;
+}
+
+h2{
+ padding: 30px;
+text-align: center;
+}
+
+
+.b{
+    color:#ffffff;
+}
