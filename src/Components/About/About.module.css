@@ -2,6 +2,10 @@
     display: flex;
 }
 
+.me{
+    height: 300px;
+    margin-top: 0px;
+}
 .left, .right{
    width: 50vw;
    height: 300px;

@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './About.module.css'
-import about from '../../Assets/about.svg'
+import me from '../../Assets/me.gif'
 const About = () => {
   return (
     <div className={classes.about}>
@@ -10,7 +10,7 @@ const About = () => {
                Lorem ipsum dolor sit amet consectetur..</p>
         </div>
         <div className={classes.right}>
-              <img src={about}></img>
+              <img src={me} className={classes.me}></img>
         </div>
     </div>
   )

@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.arrow:hover{
+    background-color: #FF90E8;
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    align-content: center;
+}
+
+.footName{
+    background-color: #FFC900;
+}
+
+.socials{
+    background-color: #000000;
+}
+
+.in, .git,.link,.tweet{
+    width: 20px;
+    align-items: center;
+}
+
+.in:hover{
+    fill: #FF90E8;
+}

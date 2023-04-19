@@ -1,13 +1,14 @@
 import React from 'react'
 import classes from './Blog.module.css'
-import blog from '../../Assets/blog.svg'
+import read from '../../Assets/read.gif'
 import Button from '../../UI/Button/Button'
+
 const Blog = () => {
   return (
     <div className={classes.blog}>
        
         <div className={classes.right}>
-            <img src={blog}/>
+            <img src={read} className={classes.read}/>
         </div>
         <div className={classes.left}>
             <h2>Checkout My Technical <br/> Articles</h2>
