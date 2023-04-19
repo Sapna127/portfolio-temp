@@ -5,6 +5,7 @@ import About from './Components/About/About';
 import WhatIDo from './Components/WhatIDo/WhatIDo';
 import Achieve from './Components/Achieve/Achieve';
 import Blog from './Components/Blog/Blog';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Achieve/>
       <Blog/>
       <Projects/>
+      {/* <Contact/> */}
     </>
   );
 }

@@ -1,0 +1,75 @@
+.close{
+    width: 100px;
+    align-items: flex-end;
+    position: relative;
+    margin-left: 300px;
+  
+}
+
+.close:hover{
+    cursor: pointer;
+}
+
+.msgT{
+    margin-top: -40px;
+}
+.title{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.name, .sub, .mail, .msg{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+}
+
+form{
+   display: flex;
+   position: absolute;
+   flex-direction: column;
+   gap: 10px;
+   width: 350px;
+   padding: 20px;
+   border: 1px solid #000000;
+   background-color: #ffffff;
+   align-content: center;
+   align-items: center;
+
+}
+
+.backdrop{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: orange;
+    background: transparent;
+    /* opacity: 10; */
+    width: 100%;
+    height: 100%;
+    z-index: 1040;
+    margin-left: 550px;
+}
+
+.modal{
+    opacity: 100;
+}
+
+.modal {
+    transition: all 0.4s ease;
+  }
+.subBtn{
+    width: 350px;
+    padding: 10px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    
+
+}
+
+.subBtn:hover{
+    background-color: #FF90E8;
+}
