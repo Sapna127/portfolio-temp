@@ -9,8 +9,10 @@ img{
 
 @media screen and (max-width: 800px){
     .whati{
-        width: 470px;
+     
         margin-left: 0;
+        max-width: 100%;
+  height: auto;
     }
 
     h1{

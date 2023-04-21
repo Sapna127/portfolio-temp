@@ -2,6 +2,7 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
+    align-content: center;
 }
 
 
@@ -22,12 +23,18 @@ footer{
 
 .socials{
     background-color: #000000;
-    align-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vw;
+    /* height: 80px; */
+    /* justify-content: space-between; */
+    align-items: center;
 }
 
 .in, .git,.link,.tweet{
     width: 20px;
     align-items: center;
+    cursor: pointer;
 }
 
 .in:hover{
@@ -42,13 +49,19 @@ footer{
 @media screen and (max-width: 800px){
     h2{
         font-size: 1rem;
+        align-items: center;
     }
     .arrow{
         width: 30px;
     }
     .footName{
-        height: 150px;
+        height: fit-content;
         align-items: center;
     }
-
+    .in, .git,.link,.tweet{
+        width: 15px;
+        align-items: center;
+        cursor: pointer;
+    }
+    
 }

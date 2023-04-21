@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import classes from './Navbar.module.css'
 import About from '../About/About';
 import Contact from '../Contact/Contact';
+import Projects from '../Projects/Projects';
 
 const Navbar = () => {
     const [showContact, setShowContact] = useState(false);
@@ -23,7 +24,7 @@ const Navbar = () => {
         document.body.removeChild(link);
       };
 
-
+      
 
     return (
         <nav>
@@ -31,7 +32,7 @@ const Navbar = () => {
             <div className={classes.low}>
                 <div className={classes.left}>
                     <ul>
-                        <li><a link={About}>About</a></li>
+                        <li><a href={About}>About</a></li>
                         <li>Projects</li>
                         <li>Experience</li>
                     </ul>

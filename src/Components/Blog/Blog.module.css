@@ -46,6 +46,6 @@ p{
     .left{
         background-color: #FFC900;
         width: 100vw;
-        height: 150px;
+        height: fit-content;
     }
 }
