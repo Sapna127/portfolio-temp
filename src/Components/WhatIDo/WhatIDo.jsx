@@ -4,10 +4,10 @@ import classes from './WhatIDo.module.css';
 
 const WhatIDo = () => {
   return (
-    <>  
+    <div id="about">  
         <h1 className={classes.title}>What I Do ?</h1>
         <img src={whatido} className={classes.whati}/>
-    </>
+    </div>
   )
 }
 

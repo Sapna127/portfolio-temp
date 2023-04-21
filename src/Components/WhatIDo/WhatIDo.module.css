@@ -5,8 +5,12 @@
 img{
     align-items: center;
     padding: 20px;
+    margin-left: -20px;
 }
 
+.whati{
+    width: 100%;
+}
 @media screen and (max-width: 800px){
     .whati{
      

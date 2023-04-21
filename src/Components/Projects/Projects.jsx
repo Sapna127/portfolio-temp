@@ -4,7 +4,7 @@ import classes from './Projects.module.css'
 import Card from '../../UI/Card/Card';
 const Projects = () => {
   return (
-    <>
+    <div id="projects">
       <h1>Work I've Done So Far</h1>
       <p>Lorem ipsum dolor sit amet consectetur<br/>
          Lorem ipsum dolor sit amet consectetur..</p>
@@ -15,7 +15,7 @@ const Projects = () => {
           })
         }
       </div>
-    </>
+    </div>
   )
 }
 

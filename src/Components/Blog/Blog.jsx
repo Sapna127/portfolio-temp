@@ -14,7 +14,7 @@ const Blog = () => {
             <h1>Checkout My Technical <br/> Articles</h1>
             <p>Lorem ipsum dolor sit amet consectetur<br/>
                Lorem ipsum dolor sit amet consectetur..</p>
-            {/* <Button className={classes.btn} url={'https://hashnode.com/@dream286'}>Blogs</Button> */}
+            <Button className={classes.btn} url={'https://hashnode.com/@dream286'}>Blogs</Button>
         </div>
     </div>
   )

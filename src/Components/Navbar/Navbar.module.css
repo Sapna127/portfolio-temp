@@ -19,8 +19,11 @@ ul{
     display: flex;
     border: 1px solid #000000;
     position: sticky;
+    height: 56px;
 }
-
+nav{
+  height: 137px;
+}
 .right{
     margin-left: auto;
     display: flex;
@@ -39,7 +42,7 @@ button{
     /* margin-left: 52px; */
 }
 
-li:hover{
+a:hover ,li:hover{
     color: #FF90E8;
     cursor: pointer;
 }
@@ -52,6 +55,10 @@ button:hover{
     background: #000000;
 }
 
+a{
+  text-decoration: none;
+  color: #000000;
+}
 @media screen and (max-width: 800px){
       nav{
         width: 100vw;

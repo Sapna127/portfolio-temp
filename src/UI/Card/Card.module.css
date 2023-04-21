@@ -1,3 +1,6 @@
+.title{
+    font-size: 1.5rem;
+}
 .card{
     width: 280px;
     height: 300px;
@@ -19,5 +22,20 @@
             padding: 5px;
             height:  fit-content;
 
+        }
+        .btns{
+           flex-direction: column; 
+        }
+        .title{
+            font-weight: bold;
+            padding: 5px;
+            font-size: 1rem;
+        }
+        .desc{
+            font-size: 0.8rem;
+            /* height: 30px; */
+            /* text-overflow: ellipsis; */
+            width: 150px;
+            align-items: center;
         }
     }

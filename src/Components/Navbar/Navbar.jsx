@@ -2,7 +2,6 @@ import React, { useState, useRef } from 'react'
 import classes from './Navbar.module.css'
 import About from '../About/About';
 import Contact from '../Contact/Contact';
-import Projects from '../Projects/Projects';
 
 const Navbar = () => {
     const [showContact, setShowContact] = useState(false);
@@ -32,9 +31,9 @@ const Navbar = () => {
             <div className={classes.low}>
                 <div className={classes.left}>
                     <ul>
-                        <li><a href={About}>About</a></li>
-                        <li>Projects</li>
-                        <li>Experience</li>
+                        <li><a href='#about'>About</a></li>
+                        <li><a href='#projects'>Projects</a></li>
+                        <li><a href='#achieve'>Experience</a></li>
                     </ul>
                 </div>
                 <div className={classes.right}>

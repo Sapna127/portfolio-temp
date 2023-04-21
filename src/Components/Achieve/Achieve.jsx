@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Achieve.module.css";
 const Achieve = () => {
   return (
-    <div className={classes.whole}>
+    <div className={classes.whole} id="achieve">
       <div className={classes.row1}>
         <div className={classes.r1}><h2 >CP Mentor at CPMC</h2></div>
         <div className={classes.r2}><h2 >Postman Student Expert</h2></div>
