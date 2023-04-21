@@ -4,23 +4,25 @@ footer{
     margin-top: 15px;
 }
 
-.arrow:hover{
-    background-color: #FF90E8;
-    cursor: pointer;
-}
+
 .title{
     display: flex;
     gap: 5px;
     align-items: center;
     align-content: center;
+
 }
 
 .footName{
-    background-color: #FFC900;
+    background-color: #B23386;
+    border: 1px solid #000000;
+    justify-content: center;
+    align-items: center;
 }
 
 .socials{
     background-color: #000000;
+    align-content: center;
 }
 
 .in, .git,.link,.tweet{
@@ -30,4 +32,23 @@ footer{
 
 .in:hover{
     fill: #FF90E8;
+}
+
+.arrow{
+    animation: a1 1.5s infinite linear;
+
+}
+
+@media screen and (max-width: 800px){
+    h2{
+        font-size: 1rem;
+    }
+    .arrow{
+        width: 30px;
+    }
+    .footName{
+        height: 150px;
+        align-items: center;
+    }
+
 }

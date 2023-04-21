@@ -11,10 +11,10 @@ const Blog = () => {
             <img src={read} className={classes.read}/>
         </div>
         <div className={classes.left}>
-            <h2>Checkout My Technical <br/> Articles</h2>
+            <h1>Checkout My Technical <br/> Articles</h1>
             <p>Lorem ipsum dolor sit amet consectetur<br/>
                Lorem ipsum dolor sit amet consectetur..</p>
-            <Button className={classes.btn} url={'https://hashnode.com/@dream286'}>Blogs</Button>
+            {/* <Button className={classes.btn} url={'https://hashnode.com/@dream286'}>Blogs</Button> */}
         </div>
     </div>
   )

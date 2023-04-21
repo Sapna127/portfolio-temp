@@ -15,12 +15,12 @@ const Footer = () => {
                 <img src={arrow} className={classes.arrow}/>
             </div>
         </div>
-        <div className={classes.socials}>
+        {/* <div className={classes.socials}>
             <img src={insta} className={classes.in}/>
             <img src={github} className={classes.git}/>
             <img src={tweeter} className={classes.tweet}/>
             <img src={linkedin} className={classes.link}/>
-        </div>
+        </div> */}
     </footer>
   )
 }

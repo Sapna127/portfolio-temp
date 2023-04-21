@@ -38,3 +38,14 @@ p{
 .btn{
     align-content: center;
 }
+
+@media screen and (max-width: 800px){
+    .right{
+        display: none;
+    }
+    .left{
+        background-color: #FFC900;
+        width: 100vw;
+        height: 150px;
+    }
+}

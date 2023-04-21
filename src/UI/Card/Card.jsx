@@ -10,7 +10,7 @@ const Card = (props) => {
     <div className={classes.card} style={cardStyle}>
         <h2 className={classes.title}>{title}</h2>
         <p className={classes.desc}>{description}</p>
-        <Button url={url}>Live link</Button>
+        {/* <Button url={url}>Live link</Button> */}
         
     </div>
   )

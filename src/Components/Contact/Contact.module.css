@@ -73,3 +73,11 @@ form{
 .subBtn:hover{
     background-color: #FF90E8;
 }
+
+
+@media screen and (max-width: 800px){
+    form{
+        width: 200px;
+        align-self: center;
+    }
+}
