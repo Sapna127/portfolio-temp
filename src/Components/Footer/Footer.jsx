@@ -20,7 +20,7 @@ const Footer = () => {
         <div className={classes.socials}>
             <img src={insta} className={classes.in} onClick={()=>window.open('https://www.instagram.com/_dr.ea.m_/')}/>
             <img src={github} className={classes.git} onClick={()=>window.open('https://github.com/Sapna127')}/>
-            <img src={tweeter} className={classes.tweet} onClick={()=>window.open('https://twitter.com/sapna_kul')}/>
+            <img src={tweeter} className={classes.tweet} onClick={()=>window.open('https://twitter.com/dream299_')}/>
             <img src={linkedin} className={classes.link} onClick={()=>window.open('https://www.linkedin.com/in/sapna-kul-84453a215/')}/>
         </div>
     </footer>

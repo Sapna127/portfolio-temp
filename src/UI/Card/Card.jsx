@@ -1,8 +1,8 @@
 import React from 'react'
 import Button from '../Button/Button'
 import classes from './Card.module.css'
-const Card = (props) => {
-  const { title, url,color, description} = props;
+const Card = ({data}) => {
+  const { title, url1, url2,color, description} = data;
   const cardStyle = {
     backgroundColor: color,
   };
@@ -10,7 +10,11 @@ const Card = (props) => {
     <div className={classes.card} style={cardStyle}>
         <h2 className={classes.title}>{title}</h2>
         <p className={classes.desc}>{description}</p>
-        {/* <Button url={url}>Live link</Button> */}
+        <div className={classes.btns}>
+        <Button url={url1}>Live link</Button>
+        <Button url={url2}>Github</Button>
+        </div>
+        
         
     </div>
   )
