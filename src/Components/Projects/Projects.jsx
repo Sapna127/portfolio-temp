@@ -6,8 +6,8 @@ const Projects = () => {
   return (
     <div id="projects">
       <h1>Work I've Done So Far</h1>
-      <p>Lorem ipsum dolor sit amet consectetur<br/>
-         Lorem ipsum dolor sit amet consectetur..</p>
+      <p>Few Projects I've created <br/>
+         While exploring web development..</p>
       <div className={classes.project_section}>
         {
           ProjectData.map((project)=>{

@@ -17,6 +17,8 @@ footer{
 .footName{
     background-color: #B23386;
     border: 1px solid #000000;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -25,9 +27,9 @@ footer{
     background-color: #000000;
     display: flex;
     width: 100vw;
-    /* height: 80px; */
-    /* justify-content: space-between; */
-    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 
 }
 
@@ -79,5 +81,7 @@ footer{
         align-items: center;
         cursor: pointer;
     }
-    
+    .socials{
+        gap: 3px;
+    }
 }

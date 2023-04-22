@@ -1,94 +1,88 @@
-.close{
-    width: 100px;
-    background-color: transparent;
-  
+.close {
+  width: 100px;
+  background-color: transparent;
 }
 
-.close:hover{
-    cursor: pointer;
+.close:hover {
+  cursor: pointer;
 }
 
-.msgT{
-    margin-top: -40px;
+.msgT {
+  margin-top: -40px;
 }
-.title{
-    background-color: #000000;
-    color: #ffffff;
+.title {
+  background-color: #000000;
+  color: #ffffff;
 }
 
-.name, .sub, .mail, .msg{
+.name,
+.sub,
+.mail,
+.msg {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 300px;
+}
+
+form {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  align-content: center; 
+  align-items: center;
+  margin-left: -56;
+}
+
+.subBtn {
+  width: 350px;
+  padding: 10px;
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.subBtn:hover {
+  background-color: #ff90e8;
+}
+
+@media screen and (max-width: 800px) {
+  form {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 10px;
+    width: 220px;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    align-content: center;
+    align-items: center;
+    /* margin-left: -56; */
+  }
+  .name,
+  .sub,
+  .mail,
+  .msg {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 300px;
-}
+    width: 150px;
+  }
 
-form{
-   display: flex;
-   position: absolute;
-   flex-direction: column;
-   gap: 10px;
-   width: 350px;
-   padding: 20px;
-   border: 1px solid #000000;
-   background-color: #ffffff;
-   align-content: center;
-   align-items: center;
-   margin-left: -56;
-
-}
-
-
-
-
-
-
-.subBtn{
-    width: 350px;
-    padding: 10px;
-    text-align: center;
-    background-color: #000000;
-    color: #ffffff;
-    
-
-}
-
-.subBtn:hover{
-    background-color: #FF90E8;
-}
-
-
-@media screen and (max-width: 800px){
-    form{
-        display: flex;
-        position: absolute;
-        flex-direction: column;
-        gap: 10px;
-        width: 220px;
-        padding: 20px;
-        border: 1px solid #000000;
-        background-color: #ffffff;
-        align-content: center;
-        align-items: center;
-        margin-left: -56;
-     
-     }
-     .name, .sub, .mail, .msg{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-        width: 150px;
-    }
-    
-.subBtn{
+  .subBtn {
     width: 200px;
     padding: 10px;
     text-align: center;
     background-color: #000000;
-    color: #ffffff;  
-}
- .close{
+    color: #ffffff;
+  }
+  .close {
     width: 60px;
-
- }
+  }
 }

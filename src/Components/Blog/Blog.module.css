@@ -14,9 +14,10 @@
     width: 330px;
 }
 .left{
-    
+    display: flex;
     padding: 10px;
     height: 280px;
+    flex-direction: column;
 }
 
 .right{
@@ -31,12 +32,11 @@ h2{
     
 }
 
-p{
-    text-align: center;
-}
 
 .btn{
-    align-content: center;
+    text-align: center;
+
+    
 }
 
 @media screen and (max-width: 800px){
