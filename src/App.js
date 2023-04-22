@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Projects from './Components/Projects/Projects';
 import About from './Components/About/About';

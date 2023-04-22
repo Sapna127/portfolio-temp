@@ -3,6 +3,7 @@ import classes from './Contact.module.css';
 import close from '../../Assets/close.svg';
 import emailjs from 'emailjs-com';
 import emailKey from '../../Assets/emailKey';
+import Modal from '../Modal/Modal';
 
 const Contact = ({onClose}) => {
     const handleSubmit = (e) => {
@@ -16,14 +17,11 @@ const Contact = ({onClose}) => {
         });
         };
 
-  const closeModalHandler = () => {
-    onClose();
-  };
-
   return (
-    <div className={classes.backdrop}>
-      <div className={classes.modal}>
-        <img src={close} className={classes.close} onClick={closeModalHandler} />
+    <Modal onClose={onClose}>
+     {/* <div className={classes.backdrop}>
+       <div className={classes.modal}> */}
+        {/* <img src={close} className={classes.close} onClick={closeModalHandler} /> */}
         <form onSubmit={handleSubmit}>
           <div className={classes.title}>
             <h2 className={classes.name}>HOW CAN I HELP?</h2>
@@ -51,8 +49,9 @@ const Contact = ({onClose}) => {
             </button>
           </div>
         </form>
-      </div>
-    </div>
+      {/* </div>
+    </div> */}
+    </Modal>
   );
 };
 
