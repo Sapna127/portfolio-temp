@@ -4,7 +4,11 @@
 
 </div>
 
+<div align="center"> 
+  
 ## Glimpse ✨
+  
+</div>
 
 ### [DEMO LINK](https://sapna-portfolio-temp.vercel.app/)
 
@@ -19,7 +23,7 @@
     <td><img width="500px" src = "https://user-images.githubusercontent.com/91309280/233797827-16068c05-51df-488d-b166-b69a0fbd0403.png"></td>
   </tr>
   <tr>
-    <td><img width="500px" src = "https://user-images.githubusercontent.com/91309280/233797856-76fa82aa-35f3-4f2b-abfd-e41816755654.pngg"></td>
+    <td><img width="500px" src = "https://user-images.githubusercontent.com/91309280/233797856-76fa82aa-35f3-4f2b-abfd-e41816755654.png"></td>
     <td><img width="500px" src = "https://user-images.githubusercontent.com/91309280/233797872-9587853a-50eb-4297-8b56-b48325f52d72.png"></td>
   </tr>
 </table>
