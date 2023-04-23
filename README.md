@@ -28,6 +28,14 @@
   </tr>
 </table>
 
+## Perks 
+
+- Responsive to mobile, tablet and desktop screens.
+- Added the contact form using emailjs
+- Created the unique UI
+- Gif and interactive animations
+- Implemented core react features like - portals, fragments, components, routers etc
+
 ## Technologies Used 👩🏻‍💻
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
 
